@@ -52,7 +52,7 @@ Nile & Spice is a fully functional restaurant website designed to provide a seam
 
 ## Demo Video
 If you’d like to see the website in action, check out this demo video:
-[![Watch the Video](https://drive.google.com/file/d/1tgqR_lEjobYCgfCrgAqpBIPNL-c1FABL/view?usp=sharing)
+[Watch the Demo Video](https://drive.google.com/file/d/1tgqR_lEjobYCgfCrgAqpBIPNL-c1FABL/view?usp=sharing)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss the changes.
