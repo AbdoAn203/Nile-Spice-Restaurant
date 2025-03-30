@@ -1,0 +1,71 @@
+﻿<!-- Features Section -->
+@model List<Product>
+
+<div id="features" class="text-center">
+    <div class="container">
+        <div class="section-title">
+            <h2>Our Specials</h2>
+        </div>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-xs-12 col-sm-4">
+                <div class="features-item">
+                    <h3>@item.Name</h3>
+                    <img src="@item.Image" class="img-responsive" alt="">
+                    <p>@item.Ingredients</p>
+                </div>
+                </div>
+            }
+        </div>
+        
+    </div>
+</div>
+
+
+<!-- About Section -->
+<div id="about">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 about-img"> </div>
+            <div class="col-xs-12 col-md-3 col-md-offset-1">
+                <div class="about-text">
+                    <div class="section-title">
+                        <h2>Our Story</h2>
+                    </div>
+                    <p>
+                        At our traditional Egyptian restaurant, we bring the rich culinary heritage of Egypt to your table. Our story begins with a passion for authentic flavors, where every dish is crafted with love and a deep respect for time-honored recipes passed down through generations. From the vibrant streets of Cairo to the tranquil banks of the Nile, our menu captures the essence of Egypt’s diverse regions, offering a true taste of home.
+
+                    </p>
+                    <p>Whether you’re indulging in the savory spices of koshari, the fragrant herbs of molokhia, or the hearty comfort of feteer, each bite tells a story of tradition, warmth, and the vibrant spirit of Egyptian hospitality. Join us on a culinary journey where every meal is a celebration of our culture and a shared experience of the flavors that make Egypt so special.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+    <div class="container text-center">
+        <div class="col-md-4">
+            <h3>Reservations</h3>
+            <div class="contact-item">
+                <p>Please call</p>
+                <p>(02) 37022421</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h3>Address</h3>
+            <div class="contact-item">
+                <p>42 Tahrir St,</p>
+                <p>Down Town, Cairo</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h3>Opening Hours</h3>
+            <div class="contact-item">
+                <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
+                <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
+            </div>
+        </div>
+    </div>
+</div>

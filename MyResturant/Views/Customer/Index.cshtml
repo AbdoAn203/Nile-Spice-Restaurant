@@ -1,0 +1,68 @@
+﻿<!-- Features Section -->
+@model List<Product>
+
+<div id="features" class="text-center">
+    <div class="container">
+        <div class="section-title">
+            <h2>Our Specials</h2>
+        </div>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-xs-12 col-sm-4">
+                    <div class="features-item">
+                        <h3>@item.Name</h3>
+                        <img src="@item.Image" class="img-responsive" alt="">
+                        <p>@item.Ingredients</p>
+                    </div>
+                </div>
+            }
+        </div>
+
+    </div>
+</div>
+
+
+<!-- About Section -->
+<div id="about">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 about-img"> </div>
+            <div class="col-xs-12 col-md-3 col-md-offset-1">
+                <div class="about-text">
+                    <div class="section-title">
+                        <h2>Our Story</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+    <div class="container text-center">
+        <div class="col-md-4">
+            <h3>Reservations</h3>
+            <div class="contact-item">
+                <p>Please call</p>
+                <p>(887) 654-3210</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h3>Address</h3>
+            <div class="contact-item">
+                <p>4321 California St,</p>
+                <p>San Francisco, CA 12345</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h3>Opening Hours</h3>
+            <div class="contact-item">
+                <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
+                <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
+            </div>
+        </div>
+    </div>
+</div>
